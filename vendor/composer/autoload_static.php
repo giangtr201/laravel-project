@@ -400,6 +400,7 @@ class ComposerStaticInit3f833de44ec50a7472c35030e57224db
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Requests\\ContactRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ContactRequest.php',
+        'App\\Http\\Requests\\NoteRequest' => __DIR__ . '/../..' . '/app/Http/Requests/NoteRequest.php',
         'App\\Note' => __DIR__ . '/../..' . '/app/Note.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',

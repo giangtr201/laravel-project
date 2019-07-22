@@ -8,12 +8,12 @@ function getNote() {
         notes.forEach((note) => {
             $('.table-body').append(`
         <tr>
-        <td>${note.title}</td>
+        <td >${note.title}</td>
         <td>${note.description}</td>
         <td>
-        <a class="btn btn-default btn-outline-dark" onclick = "editNote('${note.id}', '${note.title}', '${note.description}')" > Edit </a>
-        <a class="btn btn-default btn-outline-dark" onclick = "removeNote(${note.id})" > Delete </a>
-        <a class="btn btn-default btn-outline-dark" onclick = "showNote( '${note.title}', '${note.description}')" > Show</a>
+        <button type="button" class="btn btn-primary" onclick = "editNote('${note.id}', '${note.title}', '${note.description}')" > Edit </button>
+        <button type="button" class="btn btn-success" onclick = "removeNote(${note.id})" > Delete </button>
+        <button type="button" class="btn btn-info" onclick = "showNote( '${note.title}', '${note.description}')" > Show</button>
         </td>
         </tr>`);
         });

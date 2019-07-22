@@ -1,0 +1,45 @@
+/* default button */
+.btn-default {
+    background-color: #FFF;
+    color: #333;
+    border-color: #adadad;
+    border-radius: 25px;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active    {
+    background-color: #ebebeb;
+    color: #333;
+    border-color: #adadad;
+}
+
+/* primary button */
+.btn-primary {
+    background-color: #FFF;
+    color: #285e8e;
+    border-color: #3276b1;
+    border-radius: 25px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active    {
+    background-color: #3276b1;
+    color: #FFF;
+    border-color: #285e8e;
+}
+
+
+/* info button */
+.btn-info {
+    background-color: #FFF;
+    color: #269abc;
+    border-color: #39b3d7;
+    border-radius: 25px;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active    {
+    background-color: #39b3d7;
+    color: #FFF;
+    border-color: #269abc;
+}
