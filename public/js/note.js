@@ -8,7 +8,7 @@ function getNote() {
         notes.forEach((note) => {
             $('.table-body').append(`
         <tr>
-        <td >${note.title}</td>
+        <td>${note.title}</td>
         <td>${note.description}</td>
         <td>
         <button type="button" class="btn btn-primary" onclick = "editNote('${note.id}', '${note.title}', '${note.description}')" > Edit </button>

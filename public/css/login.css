@@ -1,5 +1,5 @@
 body{
     background-image: url("../images/10-13.jpg");
-    background-size: auto;
+    background-size: cover;
     background-position: center;
-}
+    }

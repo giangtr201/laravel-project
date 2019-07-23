@@ -7,12 +7,12 @@
 
          <br>
          <br>
-         <table class="table table-bordered grocery-crud-table table-hover ">
+         <table class="table table-bordered grocery-crud-table table-hover table-responsive">
             <thead>
-               <tr class="d-flex">
-                  <th class="col-3">Title</th>
-                  <th class="col-6">Description</th>
-                  <th class="col-3">Action</th>
+               <tr>
+                  <th style="width: 20%," >Title</th>
+                  <th style="width: 55%">Description</th>
+                  <th style="width: 25%">Action</th>
                </tr>
             </thead>
             <tbody class="table-body">
@@ -81,7 +81,6 @@
             </div>
          </div>
       </div>
-
       <!-- Edit Infomation Modal -->
       <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
          <div class="modal-dialog" role="document">
@@ -112,9 +111,20 @@
             </div>
          </div>
       </div>
-      </div>
-      <script type="text/javascript" src="{{asset('/js/note.js')}}"></script>
+      </div> <script type="text/javascript" src="{{asset('/js/note.js')}}"></script>
 
 @endsection
-
+@section('nav')
+   <ul class="nav">
+      <li class="nav-item">
+         <a class="nav-link" href="/notes">Notes</a>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link" href="/contact">Contacts</a>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link" href="#">Products</a>
+      </li>
+   </ul>
+@endsection()
 

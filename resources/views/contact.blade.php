@@ -119,3 +119,16 @@
       </div>
    <script type="text/javascript" src="{{asset('/js/phone_book.js')}}"></script>
 @endsection
+@section('nav')
+   <ul class="nav">
+      <li class="nav-item">
+         <a class="nav-link" href="/notes">Notes</a>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link" href="/contact">Contacts</a>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link" href="#">Products</a>
+      </li>
+   </ul>
+@endsection()

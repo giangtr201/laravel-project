@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('style')
-    <link rel="stylesheet" type="text/css" href="{{asset('/css/login.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/css/register.css')}}">
 @endsection
 @section('content')
 <div class="container">
